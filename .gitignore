@@ -5,3 +5,4 @@ installation-iso/bzImage
 installation-iso/busybox-*
 .vscode
 installation-iso/initrd*
+minimaliso/buildroot-*

@@ -1,4 +1,4 @@
 all: minimaliso
 
 minimaliso:
-	cd installation-iso && make
+	cd minimaliso && make
