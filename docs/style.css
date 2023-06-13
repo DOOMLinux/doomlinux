@@ -1,0 +1,113 @@
+* {
+    font-family: sans-serif, Arial;
+}
+div.navbar {
+        position: absolute;
+        top: 90px;
+        border: 0;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        background-color: #eee;
+        text-align: right;
+        border-top: solid 1px #ccc;
+        border-bottom: solid 1px #ccc;
+}
+
+li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+  }
+
+  
+#leftmenu ul {
+    text-align: right;
+    font-weight: bold;
+    background: #eee;
+    list-style-type: none;
+    position: absolute;
+    left: 0px;
+    top: 145px;
+    border-top: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #leftmenu li {
+    margin: 0;
+    border-bottom: solid 1px #ddd;
+  }
+  
+  #leftmenu a {
+    text-decoration: none;
+    border: none;
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+    color: #777;
+  }
+  
+  #leftmenulist a:hover {
+    background: #777;
+    color: white;
+  }
+  
+  #lfsmenulist a:hover {
+    background: #0072ff;
+    color: white;
+  }
+  
+  #alfsmenulist a:hover {
+    background: #92d800;
+    color: white;
+  }
+  
+  #blfsmenulist a:hover {
+    background: #a27700;
+    color: white;
+  }
+  
+  #hlfsmenulist a:hover {
+    background: #fd7700;
+    color: white;
+  }
+  
+  #hintsmenulist a:hover {
+    background: #8400ff;
+    color: white;
+  }
+  
+  #livecdmenulist a:hover {
+    background: red;
+    color: white;
+  }
+  
+  #patchesmenulist a:hover {
+    background: #0c0470;
+    color: white;
+  }
+  
+  #lfsactive:link, #lfsactive:visited {
+    background: #0072ff;
+  }
+  #alfsactive:link, #alfsactive:visited {
+    background: #92d800;
+  }
+  #blfsactive:link, #blfsactive:visited {
+    background: #a27700;
+  }
+  #hlfsactive:link, #hlfsactive:visited {
+    background: #fd7700;
+  }
+  #hintsactive:link, #hintsactive:visited {
+    background: #8400ff;
+  }
+  #livecdactive:link, #livecdactive:visited {
+    background: red;
+  }
+  #patchesactive:link, #patchesactive:visited {
+    background: #0c0470;
+  }
