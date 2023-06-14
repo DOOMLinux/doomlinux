@@ -1,4 +1,4 @@
-all: minimaliso
+#all: minimaliso
 
-minimaliso:
-	cd minimaliso && make
+#minimaliso:
+#	cd minimaliso && make
