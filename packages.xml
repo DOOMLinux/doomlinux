@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Packages>
+    <Package>
+        <Name>workerinstall</Name>
+        <Version>latest</Version>
+        <InstallationType>git</InstallationType>
+        <InstallationPath>https://github.com/SirObby/workerinstall.git</InstallationPath>
+        <Dependencies>
+            <Dependancy>
+                <Name>libxml2</Name>
+                <Version>2.10.4</Version>
+            </Dependancy>
+        </Dependencies>
+        <PreInstall>
+            printf "Note that this will replace your current workerinstall and workerupdate version.\nOther workerinstall instances should not be running during this install.\n"
+        </PreInstall>
+        <Instructions>
+            make
+        </Instructions>
+        <Install>
+            make install
+        </Install>
+        <PostInstall>
+            printf "workerinstall and workerupdate have been replaced."
+        </PostInstall> 
+    </Package>
+</Packages>
