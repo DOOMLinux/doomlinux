@@ -5,25 +5,33 @@
   <title>DOOMLinux</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
 </head>
 
-<body>
+<body class="dark">
 
-  <div class="container">
-    <h1>DOOMLinux</h1>
-    <p>
-      DOOMLinux is a compile-all linux distribution, as in you compile everything you use with our <a href="workerinstall.html">workerinstall</a>
-    </p>
-    
-    <h2>
-      In development
-    </h2>
-    <p>
-      DOOMLinux is still in development so it cannot be installed yet.
-      <br>
-      You can check on the progress on our <a href="http://github.com/SirObby/doomlinux">GitHub</a>
-    </p>
+  <div class="navbarWrapper">
+    <div class="navbar">
+      <div class="logo">
+        <a>DOOMLinux</a>
+      </div>
+      <div class="links">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a>About</a>
+        </li>
+        <li>
+          <a>Github</a>
+        </li>
+        <li>
+          <a id="clrmode" href="javascript:void(0);" onclick="colormode()">Light</a>
+        </li>
+      </div>
+      <a id="dwbtn">Downloads</a>
+    </div>
   </div>
 
 </body>
