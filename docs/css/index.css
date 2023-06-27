@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 8vh;
+    min-height: 8vh;
     width: 90%;
 }
 
